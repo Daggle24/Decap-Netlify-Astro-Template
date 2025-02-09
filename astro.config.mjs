@@ -6,7 +6,7 @@ import alpinejs from "@astrojs/alpinejs";
 import { i18n, filterSitemapByDefaultLocale } from "astro-i18n-aut/integration";
 import { DEFAULT_LOCALE, LOCALES, SITE_URL } from "./src/consts";
 
-import netlify from "@astrojs/netlify";
+import cloudflare from "@astrojs/cloudflare";
 
 const defaultLocale = DEFAULT_LOCALE;
 const locales = LOCALES;
@@ -14,6 +14,7 @@ const locales = LOCALES;
 // https://astro.build/config
 export default defineConfig({
   site: SITE_URL,
+  trailingSlash: "always",
 
   build: {
       format: "directory",
@@ -48,6 +49,5 @@ export default defineConfig({
       }),
 	],
 
-  output: "server",
-  adapter: netlify(),
+  adapter: cloudflare(),
 });

@@ -6,8 +6,8 @@ backend:
     name: github
     branch: main
     repo: Daggle24/Decap-Netlify-Astro-Template
-    site_domain: soft-tulumba-0f442c.netlify.app
-    base_url: https://soft-tulumba-0f442c.netlify.app
+    site_domain: decap-netlify-astro-template.pages.dev
+    base_url: https://decap-netlify-astro-template.pages.dev
     auth_endpoint: oauth
     automatic_deployments: true
 
