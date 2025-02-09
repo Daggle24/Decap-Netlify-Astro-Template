@@ -6,9 +6,9 @@ backend:
     name: github
     branch: main
     repo: Daggle24/Decap-Netlify-Astro-Template
-    site_domain: decap-netlify-astro-template.pages.dev
+    site_domain: https://decap-netlify-astro-template.pages.dev
     base_url: https://decap-netlify-astro-template.pages.dev
-    auth_endpoint: oauth
+    auth_endpoint: /api/auth
     automatic_deployments: true
 
 media_folder: "src/assets/images"
