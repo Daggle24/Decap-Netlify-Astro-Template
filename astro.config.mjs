@@ -14,7 +14,6 @@ const locales = LOCALES;
 // https://astro.build/config
 export default defineConfig({
   site: SITE_URL,
-  trailingSlash: "always",
 
   build: {
       format: "directory",
