@@ -6,9 +6,7 @@ backend:
     name: github
     branch: main
     repo: Daggle24/Decap-Netlify-Astro-Template
-    site_domain: https://decap-netlify-astro-template.pages.dev
-    base_url: https://decap-netlify-astro-template.pages.dev
-    automatic_deployments: true
+    base_url: https://sveltia-cms-auth.alejandro24-daniel.workers.dev
 
 media_folder: "src/assets/images"
 public_folder: "@assets/images"
