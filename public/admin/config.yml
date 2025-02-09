@@ -3,7 +3,7 @@ local_backend: true
 logo_url: /logo.svg
 
 backend:
-    name: github
+    name: git-gateway
     branch: main
     repo: Daggle24/Decap-Netlify-Astro-Template
     site_domain: soft-tulumba-0f442c.netlify.app
